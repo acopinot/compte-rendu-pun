@@ -48,7 +48,7 @@ Git offre de nombreuses possibilités en terme d'organisation, cependant un work
 6. Suppression de la branche de travail
 7. Retour à la case 1.
 
-Essayer Git: https://try.github.io/levels/1/challenges/1
-Comprendre le GitHub Flow: https://guides.github.com/introduction/flow/
+* [Essayer Git](https://try.github.io/levels/1/challenges/1)
+* [Comprendre le GitHub Flow](https://guides.github.com/introduction/flow/)
 
 [Slides de présentation](https://dirtyf.github.io/compte-rendu-pun/slides)
