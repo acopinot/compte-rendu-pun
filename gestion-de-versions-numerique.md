@@ -1,4 +1,4 @@
-# Git et GitHub : gestion de version et publication numérique 
+# Git et GitHub : gestion de versions et publication numérique 
 
 # Présentation de Frank Taillandier
 
@@ -15,9 +15,9 @@ Le web est un univers en expansion constante depuis sa création, dont les stand
 
 Le graphe très visuel sur [l'évolution du web](http://www.evolutionoftheweb.com/) montre le développement du web avec la multiplication des navigateurs et technologies (en particulier depuis 2008), et la rapidité croissante des nouvelles versions (livrables) de toutes ces technologies.
 
-Dans ce monde en mouvement constant, où les cycles de livraison sont raccourcis, le logiciel libre permet une grande collaboration dans l'industrie du logiciel. 
+Dans ce monde en mouvement constant, où les cycles de livraison sont raccourcis, la gestion de versions open-source permet une grande collaboration dans l'industrie du logiciel. 
 
-##	Des outils collaboratifs de gestion de version 
+##	Des outils collaboratifs de gestion de versions 
 
 Afin d’assurer le développement de tout ce contenu web , il est indispensable d’utiliser **des outils de gestion de versions**, qui permettent de garder trace des modifications faites sur les documents (que ce soit du code ou de la documentation) et de pouvoir revenir à tout moment sur ces modifications. 
 
