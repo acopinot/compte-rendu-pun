@@ -51,4 +51,5 @@ Git offre de nombreuses possibilités en terme d'organisation, cependant un work
 * [Essayer Git](https://try.github.io/levels/1/challenges/1)
 * [Comprendre le GitHub Flow](https://guides.github.com/introduction/flow/)
 
-[Slides de présentation](https://dirtyf.github.io/compte-rendu-pun/slides)
+## Le compte-rendu d'Anne-Laure Capinot et Marlène Tognifode(./gestion-de-version-numerique.html)
+## [Slides de présentation](./slides/)
