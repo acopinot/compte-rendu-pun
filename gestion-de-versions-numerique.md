@@ -1,8 +1,16 @@
-# Git et GitHub : gestion de versions et publication numérique 
+--- 
+title: Git et GitHub : gestion de versions et publication numérique 
+date: 2017-10-19
+description: Compte-rendu d'Anne-Laure Copinot et de Marlène Tognifode de l'intervention du 19 octobre 2017 de Frank Taillandier au master en publicaition numérique de l'ENSSIB de Lyon
+slug: gestion-de-versions-numerique
+authors: 
+  - acopinot
+  - dirtyf
+---
 
 # Présentation de Frank Taillandier
 
-Contact: [Mail](mailto:frank@taillandier.me) · [GitHub](https://github.com/DirtyF) ·
+Contact: [Mail](mailto:frank@taillandier.me) · @DirtyF ·
 [Twitter](https://twitter.com/DirtyF)
 
 *Jeudi 19 octobre 2017*
