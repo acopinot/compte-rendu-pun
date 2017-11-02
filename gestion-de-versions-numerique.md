@@ -76,7 +76,7 @@ On pourra aussi se référer à cet aide-mémoire visuel des [commandes Git](htt
 Cet aide-mémoire a le mérite de bien distinguer les différents étapes nécessaires à la publication dans Git :
 
 * L’espace de travail local qui correspond aux fichiers présents dans le dossier — mais pas forcément encore versionnés.
-* l’**index**, parfois aussi appelé `staging` qui joue le rôle d’espace de transit pour les sélection les fichiers à versionner et à regrouper dans un `commit`.
+* l’**index**, parfois aussi appelé `staging` qui joue le rôle d’espace de transit pour la sélection des fichiers à versionner et à regrouper dans un `commit`.
 * **Le dépôt local** : L'état des fichiers et des branches, ainsi que l'historique des modifications.
 * Le **dépôt distant** : c'est une instance du dépôt sur un serveur distant où les fichiers sont « poussés » grâce à la commande `git push` après chaque `commit` afin que chaque contributeur du projet puisse ensuite récupérer ces modifications. C'est souvent un service comme GitHub ou GitLab qui servira de dépôt distant. Lorsqu'on récupére un projet Git depuis GitHub via la commande `git clone` l'URL du dépôt distant est automatiquement ajoutée comme `origin`. Chaque dépôt distant possède un nom pour pouvoir y faire référence plus facilement.
 
@@ -91,7 +91,7 @@ Le guide de [GitHub](https://guides.github.com/) détaille le WorkFlow et son fl
 
 ### Vocabulaire et workflow
 
-Comme tout logiciel en ligne de commande Git est en anglais. Il en va de même pour GitHub dont l'interface n'est pas disponible en français. Il est donc important de connaitre les termes  de référence en anglais.
+Comme tout logiciel en ligne de commande, Git est en anglais. Il en va de même pour GitHub, dont l'interface n'est pas disponible en français. Il est donc important de connaitre les termes  de référence en anglais.
 
 GitHub propose également [`hub`](https://hub.github.com/) un utilitaire en ligne de commande qui permet d'interagir avec GitHub.
 
@@ -109,7 +109,7 @@ Se reporter à l'aide de GitHub pour apprendre à créer des pull requests : [ht
 À noter qu'il est possible d'ajouter des fichiers, de les modifier, de créer des branches et des pull requests entièrement depuis GitHub et donc sans passer par la ligne de commande. Cela demande donc d'avoir un accès internet.
 Pour les modifications importantes, on préfèrera travailler tranquillement sur son dépôt local et soumettre les modifications une fois le travail terminé, cependant pour de petites modifications, passer uniquement par GitHub simplifie beaucoup le processus.
 4. **Discussions et revue de code** : c'est également dans les *pull request* que les personnes en charge du projet vont pouvoir valider les changements proposés via la revue de code. GitHub permettant d'insérer des commentaires sur les changements apportés, c'est très pratique pour faire des retours très précis à l'auteur de la *pull request*. Sur les projets logiciels importants, il est souvent exigé que deux personnes relisent ces modifications afin de favoriser la connaissance partagée du projet.
-5. **Fusion des branches** : une fois tous les changements revus et acceptés, la branche créée converge - en général vers la branche `master`. En anglais cette opération se dit `merge`.
+5. **Fusion des branches** : une fois tous les changements revus et acceptés, la branche créée converge - en général vers la branche `master`. En anglais, cette opération se dit `merge`.
 GitHub facilite la fusion de branches en s'affranchissant de la ligne de commande, mais c'est une commande de base de Git (`git merge`).
 6. **Déploiement** : une fois la `pull request` revue et acceptée, la branche peut être fusionnée (`merge`) et les changements déployés (`deploy`).
 Grâce au versionnement, en cas de problème ultérieur, il est toujours possible de revenir en arrière et de se positionner dans un état précédent.
@@ -141,7 +141,7 @@ La chaine de publication est donc réduite au minimum et est ainsi extrêmement 
 
 Malgré le nom de « statique », les sites statiques peuvent être dynamiques et interactifs grâce à l’utilisation des outils de plateformes web (HTML5, CCS3 et Javascript). Quire permet par exemple aux lecteurs de faire des recherches dans le livre.
 
-On peut retrouver tout le projet de publication numérique sur [https://github.com/gettypubs.](https://github.com/gettypubs.)
+On peut retrouver tout le projet de publication numérique du [Getty sur GitHub.](https://github.com/gettypubs)
 
 ##	En conclusion
 
@@ -150,5 +150,5 @@ Git et GitHub permettent de collaborer afin de partager l'expérience de tous et
 
 *Notes*:
 
-- **Le Getty Museum propose des stages à Los Angeles...** Voir [http://www.getty.edu/about/opportunities/intern_opps.html](http://www.getty.edu/about/opportunities/intern_opps.html)
+- Le Getty Museum propose des [**stages à Los Angeles**](http://www.getty.edu/about/opportunities/intern_opps.html)
 - Nous avons utilisé l'éditeur [**dillinger**](https://dillinger.io) pour éditer le texte en Markdown.
