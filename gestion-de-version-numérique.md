@@ -22,7 +22,7 @@ Afin d’assurer le développement de tout ce contenu web , il est indispensable
 
 Il existe de nombreux outils de gestion de versions : Git s'est rapidement imposé et a entrainé l'apparition de plate-formes comme GitHub.
 
-Git et Github permettent de travailler de manière collaborative, en créant des branches du projet : cela permet de faire des modifications sur un projet dans un espace précis : ces modifications seront ensuite fusionnées dans la branche maitresse, la *master branch* du projet. 
+Git et Github permettent de travailler de manière collaborative, en créant des branches du projet : cela permet de faire des modifications sur un projet dans un espace précis. Ces modifications seront ensuite fusionnées dans la branche maitresse, la *master branch* du projet. 
 
 C’est cette capacité de branchements et les techniques collaboratives Open source (échanges avec par exemple des révisions de fichiers par paires – *peer to peer review*-), qui donnent à Git et GitHub toute leur force dans un environnement Web où il faut être très réactif.
 
@@ -89,7 +89,7 @@ GitHub propose également [`hub`](https://hub.github.com/) un utilitaire en lign
 #### Étapes du workflow
  
 1. **Créer une branche**: avec la création d’une branche dans un projet, on crée un environnement permettant de développer de nouvelles idées qui n’affectent pas la branche principale du projet. 
-   En général, la durée de vie d'une branche correspond au temps qui se sera écoulé entre les modifications faites dessus et la fusion dans la branche principale. La branche pourra ensuite être supprimée puisque toutes les modifications ainsi que l'historique auront été intégrées.  
+   En général, la durée de vie d'une branche correspond au temps qui se sera écoulé entre les modifications faites dessus et la fusion dans la branche principale. La branche pourra ensuite être supprimée puisque toutes les modifications ainsi que l'historique auront été intégrés.  
 Commande git : `git branch ma-branche-de-travail; git checkout ma-branche-de-travail` ou en une seule fois `git checkout -b ma-branche-de-travail` pour créer la branche et se positionner dessus pour commencer à travailler.
 2. **Enregistrer ses modifications** : après la création de la branche, on peut faire des changements dans les fichiers (ajout, édition, déplacement, suppression). On enregistre ensuite ses changements en faisant des `commits`. Pour chaque `commit` on pourra afficher les différences avant/après des modifications apportées. Cela permet à tous de voir les différentes versions des fichiers et de comprendre l’évolution du travail.    
 Commandes git : `git diff`, `git diff --staged` et `git commit -m "mon message de commit"`.
@@ -115,7 +115,7 @@ Le musée Getty développe un nouvel outil d’édition, **Quire**, qui permet l
 [Quire](https://www.getty.edu/publications/digital/platforms-tools.html) a plusieurs objectifs complémentaires, et permet notamment : 
 
 -	de rendre le travail de publication moins coûteux car les contraintes technologiques sont moindres qu’avec un déploiement basé sur un logiciel complexe de type CMS (*Content Management System*),
--	d’assurer aux auteurs et éditeurs la pérennité et de leurs documents grâce à l’utilisation de formats standards en texte brut, contrairement aux outils propriétaires où l'on est dépendant d'un éditeur pour ouvrir un document),
+-	d’assurer aux auteurs et éditeurs la pérennité et de leurs documents grâce à l’utilisation de formats standards en texte brut, contrairement aux outils propriétaires où l'on est dépendant d'un éditeur pour ouvrir un document,
 -	de produire un travail de design et typographique de qualité grâce aux possibilités de CSS,
 -	de faciliter les mises à jour en continu, car le temps de génération est extrêmement court, de l'ordre de quelques secondes avec Hugo.
 -	de simplifier l'export au format Epub et de proposer des formats de livres numériques pour différentes plate-forme en ligne (Amazon, Google, Apple).
@@ -124,7 +124,7 @@ Les fichiers sont écrits sur l’ordinateur local de l’éditeur, dans un lang
 
 L’utilisation de **Markdown** étant facile à maitriser, l’éditeur de contenu peut travailler rapidement et directement sur les fichiers source qu’il souhaite modifier puis publier. 
 
-Le générateur de site statique va ensuite transformer les fichiers Markdown en HTML, puis ils seront publiées sur un serveur distant via `git`. L’utilisateur final (le lecteur) peut donc y accèder directement en ligne. 
+Le générateur de site statique va ensuite transformer les fichiers Markdown en HTML, puis ils seront publiés sur un serveur distant via `git`. L’utilisateur final (le lecteur) peut donc y accèder directement en ligne. 
 
 Afin de faire une modification dans le contenu éditorial, il suffit donc de changer le fichier de l’éditeur en local puis de remettre à jour les fichiers sur le serveur grâce au logiciel Quire : le lecteur a ainsi directement accès aux dernières modifications de l’édition. 
 
