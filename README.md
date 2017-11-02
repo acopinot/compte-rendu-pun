@@ -4,7 +4,7 @@
 
 Qu'est-ce qui différencie les textes d'un livre, d'un magazine, d'un site web ou de code informatique ?
 
-Pas grand chose en fait, si l'on considère qu'ils vont tous devoir être saisis dans un éditeur de texte, puis validés, transformés et publiés. Simplement d'un côté on écrit dans une langue, de l'autre dans un langage informatique. 
+Pas grand chose en fait, si l'on considère qu'ils vont tous devoir être saisis dans un éditeur de texte, puis validés, transformés et publiés. Simplement d'un côté on écrit dans une langue, de l'autre dans un langage informatique.
 
 L'industrie logicielle, notamment via l'open-source, s'est dotée depuis un peu plus d'un dizaine d'année d'une palette d'outils visent à automatiser et à faciliter la publication en continu. Au cœur de ces systèmes, une notion essentielle permet cela : la gestion de versions (parfois aussi appelé versionnement). C'est *la* porte d'entrée vers les systèmes de publication actuels.
 
@@ -38,7 +38,7 @@ GitHub c'est le réseau social des développeurs, ils peuvent suivre des projets
 
 ## Le workflow de GitHub
 
-Git offre de nombreuses possibilités en terme d'organisation, cependant un workflow assez simple est souvent adopté. Pour collaborer sur un projet existant on répétera la séquence suivante : 
+Git offre de nombreuses possibilités en terme d'organisation, cependant un workflow assez simple est souvent adopté. Pour collaborer sur un projet existant on répétera la séquence suivante :
 
 1. Créer une branche pour isoler son travail
 2. Enregistrer ses modifications
@@ -51,5 +51,7 @@ Git offre de nombreuses possibilités en terme d'organisation, cependant un work
 * [Essayer Git](https://try.github.io/levels/1/challenges/1)
 * [Comprendre le GitHub Flow](https://guides.github.com/introduction/flow/)
 
-## [Le compte-rendu d'Anne-Laure Copinot et Marlène Tognifode]({% link gestion-de-versions-numerique.md %})
+
+## [Le compte-rendu d'Anne-Laure Capinot et Marlène Tognifode]({{ site.baseurl }}{% link gestion-de-versions-numerique.md %})
+
 ## [Slides de présentation](./slides/)

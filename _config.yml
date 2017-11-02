@@ -1,4 +1,4 @@
 title: Gestion de versions et publication numérique
 description: Compte-rendu de l'intervention de Frank Taillandier en master de publication numérique à l'ENSSIB de Lyon
 
-permalinks: :slug/
+permalink: /:title/
