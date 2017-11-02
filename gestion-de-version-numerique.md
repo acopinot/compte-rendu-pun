@@ -1,12 +1,13 @@
 # Git et GitHub : gestion de version et publication numérique 
 
 # Présentation de Frank Taillandier
+
 Contact: [Mail](mailto:frank@taillandier.me) · [GitHub](https://github.com/DirtyF) ·
 [Twitter](https://twitter.com/DirtyF)
 
 *Jeudi 19 octobre 2017*
 
-*Compte-rendu par Anne Laure Copinot et Marlène Tognifode*
+*Compte-rendu par [Anne Laure Copinot](https://github.com/acopinot) et Marlène Tognifode*
 
 ##	Introduction
 
