@@ -6,7 +6,7 @@ Qu'est-ce qui différencie les textes d'un livre, d'un magazine, d'un site web o
 
 Pas grand chose en fait, si l'on considère qu'ils vont tous devoir être saisis dans un éditeur de texte, puis validés, transformés et publiés. Simplement d'un côté on écrit dans une langue, de l'autre dans un langage informatique. 
 
-L'industrie logicielle, notamment via l'open-source, s'est dotée depuis un peu plus d'un dizaine d'année d'une palette d'outils visent à automatiser et à faciliter la publication en continu. Au cœur de ces systèmes, une notion essentielle permet cela : la gestion de version (parfois aussi appelé versionnement). C'est *la* porte d'entrée vers les systèmes de publication actuels.
+L'industrie logicielle, notamment via l'open-source, s'est dotée depuis un peu plus d'un dizaine d'année d'une palette d'outils visent à automatiser et à faciliter la publication en continu. Au cœur de ces systèmes, une notion essentielle permet cela : la gestion de versions (parfois aussi appelé versionnement). C'est *la* porte d'entrée vers les systèmes de publication actuels.
 
 Ces outils ne se sont pas encore propagés dans toutes les industries, notamment celle de l'édition, qui si j'en crois les retours d'amis auteurs de livres, continuent de fonctionner pour la majorité "à l'ancienne" : traitement de texte, aller-retour par email, etc.
 
@@ -14,7 +14,7 @@ L'objectif aujourd'hui est de vous faire découvrir une partie de l'écosystème
 
 Cette chaîne de publication numérique utilisée dans l'industrie logicielle est tout à fait utilisable dans d'autres secteurs, dont le logiciel n'est pas le cœur de métier.
 
-## La gestion de version décentralisée collaborative
+## La gestion de versions décentralisée collaborative
 
 Vous êtes peut-être déjà familiers avec la notion de *high-frequency trading* en économie et vous êtes tous témoins de de la course à l'automatisation à outrance en général dans notre société.
 
@@ -24,10 +24,10 @@ Ces logiciels sont développés par des équipes qui doivent collaborer, souvent
 
 Mais ce modèle centralisé n'était pas forcément pratique, il fallait pouvoir se connecter au dépôt central, les fusions de modifications étaient problématiques et coûteuses en temps. Face à ce constat, en 2005 ce même Linus Torvalds a entrepris de développer un nouveau système de fichiers qui faciliterait le versionnement et la collaboration. **Git** était né et cette nouvelle génération de gestion de versions allait bouleverser l'industrie du logiciel.
 
-Aujourd'hui Git est le logiciel de gestion de version décentralisé le plus populaire, utilisé par des millions de personnes chaque jour. Git est un logiciel en ligne de commande très complet et très puissant, mais rapidement des interfaces ont vu le jour pour faciliter sa prise en main par le plus grand nombre.
+Aujourd'hui Git est le logiciel de gestion de versions décentralisé le plus populaire, utilisé par des millions de personnes chaque jour. Git est un logiciel en ligne de commande très complet et très puissant, mais rapidement des interfaces ont vu le jour pour faciliter sa prise en main par le plus grand nombre.
 
 Pour vous donner une idée, voici les chiffres récemment publiés par GitHub, la société qui héberge actuellement le plus de code source au monde :
-[https://octoverse.github.com/](https://octoverse.github.com/)
+[https://octoverse.github.com/](https://octoverse.github.com/)s
 
 
 ## Collaboration en ligne
@@ -51,5 +51,5 @@ Git offre de nombreuses possibilités en terme d'organisation, cependant un work
 * [Essayer Git](https://try.github.io/levels/1/challenges/1)
 * [Comprendre le GitHub Flow](https://guides.github.com/introduction/flow/)
 
-## [Le compte-rendu d'Anne-Laure Capinot et Marlène Tognifode](./gestion-de-version-numerique.html)
+## [Le compte-rendu d'Anne-Laure Capinot et Marlène Tognifode](./gestion-de-versions-numerique/)
 ## [Slides de présentation](./slides/)
